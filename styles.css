@@ -4,52 +4,43 @@
   font-size: 18pt;
   padding: 2;
 }
-
 .noidung {
   color: black;
   font-weight: bold;
   font-size: 14pt;
   padding: 4;
 }
-
 .container{
   display: flex;
   flex-direction: column;
   height: 100vh;
 }
-
 .header{
   flex: 15%;
   background-color: lightgray;
 }
-
 .menu{
   flex: 5%;
   background-color: darkgray;
 }
-
 .menu a{
   padding: 15px 20px;
   color: blue;
 }
-
 .menu hover{
   background-color: lightgray;
   color: red;
 }
-
 .content{
   flex: 70%;
   background-color: white;
 }
-
 .content iframe{
   flex: 1;
   border: none;
   width: 100%;
   height: 100%;
 }
-
 .footer{
   flex: 10%;
   background-color: lightgray;
