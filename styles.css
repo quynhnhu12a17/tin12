@@ -59,7 +59,7 @@ html, body {
 } 
 
 .footer { 
-    flex: 0 0 10%; /* Chiếm 10% */
+    flex: 0 0 10%; 
     background-color: lightgray; 
     display: flex;
     align-items: center;
