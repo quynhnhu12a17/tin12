@@ -17,15 +17,16 @@ html, body {
 } 
 
 .header { 
-    flex: 0 0 15%; 
-    background-color: lightgray; 
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    flex: 0 0 18%; 
+    background-image: banner.jpg ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #1e3c72;
 } 
 
 .menu { 
-    flex: 0 0 5%; /* Cố định 5% */
+    flex: 0 0 5%; 
     background-color: darkgray; 
     display: flex; 
     align-items: center;
