@@ -2,21 +2,41 @@
 <html lang="vi">
 <head>
     <meta charset="UTF-8">
-    <title>Đóng góp ý kiến</title>
+    <title>Bai7-NV2.html</title>
 </head>
 <body>
     <h2>Đóng góp ý kiến cho thư viện của nhà trường</h2>
-    <form>
-        <h3>1. Thông tin về người góp ý</h3>
-        <label>Họ và tên: <input type="text" name="txtTen"></label><br><br>
-        <label>Địa chỉ email: <input type="text" name="txtEmail"></label><br><br>
+
+    <form action="Bai7-NV3.html">
         
-        <h3>2. Đóng góp ý kiến</h3>
-        <label>Ý kiến đóng góp: <br>
-            <textarea name="txtComment" rows="6" cols="40"></textarea>
-        </label><br><br>
-        
-        <input type="submit" value="Gửi ý kiến">
+        <fieldset>
+            <legend>1. Thông tin về người góp ý</legend>
+            <label>Họ và tên:
+                <input type="text" name="txtTen">
+            </label><br>
+            
+            <label>Địa chỉ email:
+                <input type="text" name="txtEmail">
+            </label>
+        </fieldset>
+
+        <fieldset>
+            <legend>2. Đóng góp ý kiến</legend>
+            <label>Ý kiến đóng góp:<br>
+                <textarea name="txtComment" rows="6" cols="40"></textarea>
+            </label>
+            <br><br>
+
+            <label>Thể loại cần bổ sung thêm sách:</label><br>
+            <input type="checkbox" name="chkTruyenNgan"> Truyện ngắn <br>
+            <input type="checkbox" name="chkKiNang"> Kĩ năng sống <br>
+            <input type="checkbox" name="chkCNTT"> Công nghệ thông tin <br>
+            <input type="checkbox" name="chkTruyenTranh"> Truyện tranh <br>
+            <input type="checkbox" name="chkLichSu"> Lịch sử <br>
+        </fieldset>
+
+        <br>
+        <input type="submit" name="cmd" value="Góp ý">
     </form>
 </body>
 </html>
