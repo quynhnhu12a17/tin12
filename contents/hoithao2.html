@@ -1,6 +1,20 @@
-<form>
-    Họ và tên: <input type="text" id="txtTen"> <br><br>
-    
-    <input type="button" value="Đăng kí" 
-           onclick="alert('Cảm ơn ' + txtTen.value + ' đã tham gia')">
-</form>
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Cảm ơn</title>
+</head>
+<body>
+    <div style="border: 1px solid black; padding: 20px; text-align: center; width: 80%; margin: 20px auto;">
+        
+        <h3>
+            Cảm ơn bạn 
+            <script>document.write(sessionStorage.getItem('user'));</script> 
+            đã góp ý kiến
+        </h3>
+
+        <p> Cảm ơn bạn đã tham gia </p>
+    </div>
+</body>
+</html>
+
