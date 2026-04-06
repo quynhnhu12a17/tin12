@@ -9,12 +9,14 @@
         
         <h3>
             Cảm ơn bạn 
-            <script>document.write(sessionStorage.getItem('user'));</script> 
+            <script>
+            
+                document.write(new URLSearchParams(window.location.search).get('hoten'));
+            </script> 
             đã góp ý kiến
         </h3>
 
-        <p> Cảm ơn bạn đã tham gia </p>
+        <p>Chúng tôi xin ghi nhận ý kiến của bạn và sẽ cải tiến chất lượng phục vụ...</p>
     </div>
 </body>
 </html>
-
